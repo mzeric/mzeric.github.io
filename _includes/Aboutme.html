@@ -1,22 +1,36 @@
 <div class="sidebar-module about">
-  <h4>{{ site.locales[site.default_locale].Aboutme }}</h4>
+<!--	<h4>{{ site.locales[site.default_locale].Aboutme }}</h4> -->
   <img title="{{site.author}}" src="{{site.aboutme_photo}}" alt="{{site.author}}"/>
   <span>{{site.aboutme}}</span>
   <br />
 
   {% if site.ShowContactInfo == "True" %}
 
-  You can contact me via:
+  You can contact me via:<br />
+  <div class="footer-col footer-col-2">
+    <ul class="social-media-list">
+      {% if site.github_username %}
+      <li>
+        {% include icon-github.html username=site.github_username %}
+      </li>
+      {% endif %}
 
-  {% if site.email != empty %}
-  <a href="mailto:{{site.email}}" title="mailto: {{site.email}}">Email</a> /
-  {% endif %}
-  {% if site.github_username != empty %}
-  <a href="https://github.com/{{site.github_username}}" title="GithubID: {{site.github_username}}">Github</a> /
-  {% endif %}
-  {% if site.twitter_username != empty %}
-  <a href="https://twitter.com/{{site.twitter_username}}" title="TwitterID: {{site.twitter_username}}">Twitter</a>
-  {% endif %}
+      {% if site.twitter_username %}
+      <li>
+        {% include icon-twitter.html username=site.twitter_username %}
+      </li>
+      {% endif %}
+      
+      {% if site.email %}
+      <li>
+      <a href="mailto:{{site.email}}" title="mailto: {{site.email}}">Email Me</a> /
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+
+
+
 
   {% endif %}
 
