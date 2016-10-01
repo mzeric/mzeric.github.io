@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 comments: no
-permalink: /about/
+permalink: /aboutme/
 ---
 
 
