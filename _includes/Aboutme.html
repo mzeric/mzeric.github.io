@@ -7,6 +7,28 @@
   {% if site.ShowContactInfo == "True" %}
 
   You can contact me via:<br />
+
+  {% if site.github_username %}
+
+    <a href="https://github.com/{{site.github_username}}" title="GithubID: {{site.github_username}}">
+          <i class="fa fa-github-square fa-2x">
+          </i>
+    </a>
+
+  {% endif %}
+  {% if site.email %}
+      <a href="mailto:{{site.email}}" title="mailto: {{site.email}}">
+          <i class="fa fa-envelope-square fa-2x">
+          </i></a>
+  {% endif %}
+
+  {% if site.twitter_username %}
+    <a href="https://twitter.com/{{site.twitter_username}}" title="TwitterID: {{site.twitter_username}}">
+        <i class="fa fa-twitter-square fa-2x">
+          </i></a>
+  {% endif %}
+
+
   <div class="footer-col footer-col-2">
     <ul class="social-media-list">
       {% if site.github_username %}
@@ -20,12 +42,8 @@
         {% include icon-twitter.html username=site.twitter_username %}
       </li>
       {% endif %}
-      
-      {% if site.email %}
-      <li>
-      <a href="mailto:{{site.email}}" title="mailto: {{site.email}}">Email Me</a> /
-      </li>
-      {% endif %}
+
+
     </ul>
   </div>
 

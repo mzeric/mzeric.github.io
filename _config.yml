@@ -10,7 +10,7 @@ url: "mzeric.github.io/" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
-twitter_username: tianxiao.xtx
+twitter_username:
 github_username:  mzeric
 disqus_shortname: mzeric.github.io
 favicon:     "/images/favicon.ico"
