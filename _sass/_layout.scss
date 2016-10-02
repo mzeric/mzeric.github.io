@@ -37,6 +37,7 @@
   line-height: 56px;
   border-top: 1px solid $grey-color-light;
   border-bottom: 1px solid $grey-color-light;
+  text-align:center;
   .menu-icon {
     display: none;
   }
@@ -297,9 +298,13 @@ time{
 
 .about{
   img {
+    /*
     height: 128px;
     width: 128px;
     border-radius:50%;
+    */
+    height: 80px;
+    width: 80px;
     margin: 0 auto;
     display: block;
   }
