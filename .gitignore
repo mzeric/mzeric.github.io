@@ -1,0 +1,5 @@
+_site/
+*.lock
+*.swp
+.DS_*
+_posts/_site
