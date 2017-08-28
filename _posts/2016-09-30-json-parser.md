@@ -6,6 +6,8 @@ categories: compiler
 
 json 文法简洁，正好用来演示 手工写parser的过程
 
+<!-- more -->
+
 {% highlight C %}
 /*
 

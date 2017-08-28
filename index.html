@@ -17,6 +17,10 @@ layout: default
       {% for cat in post.categories %}
       <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>{% unless post.categories.last == cat%}, {% endunless %}
       {% endfor %}
+      <div>
+      {{ post.excerpt|script_html }}
+      <p><a href="{{ post.url }}">{{site.locales[site.default_locale].ReadMore}}</a></p>
+      </div>
       {% if post.tags != empty %}
       {{ site.locales[site.default_locale].Taggedwith }}
       {% for tag in post.tags %}
@@ -28,11 +32,7 @@ layout: default
       </time>
       </p>
     </header>
-
-    <article class="post-content" itemprop="articleBody">
-      {{ post.content }}
-    </article> <hr />
-    
+    <hr/>
     {% endfor %}
   
   </div>

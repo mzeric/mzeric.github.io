@@ -3,6 +3,9 @@ layout: post
 title: raspberryPi 1/2/3 build new kernel
 categories: raspberrypi bare-metal
 ---
+Build Kernel for RaspberryPi
+
+<!-- more -->
 
 make the config first
 =====================
