@@ -11,10 +11,7 @@ permalink: /projects/
 
 * tiny os on x86
 
-<!--
-<iframe width="360" height="215" src="http://player.youku.com/embed/XMzAwNzU4NDg4OA==' frameborder="0" allowfullscreen></iframe> -->
-
-<embed src='http://player.youku.com/player.php/sid/XMzAwNzU4NDg4OA==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1fGtAkdKnOc?ecver=1" frameborder="0" allowfullscreen></iframe>
 
 * raspberrypi radio
 
