@@ -1,5 +1,6 @@
 ---
 layout: post
+title: borrow & move & copy in Rust
 categories: rust
 ---
 作为Rust新人，听说Rust最特殊的就是它的borrow system 和 lifetime；在编译的时候会
