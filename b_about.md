@@ -9,7 +9,7 @@ permalink: /aboutme/
 
 tianxiao xia (夏天笑)
 
-tianxiao.xia@gmail.com
+mzericxia@gmail.com
 
 skill: Linux Software, Embedded Software
 
@@ -28,10 +28,13 @@ Beijing, China
 # Education
 
 # Experiences
-Beijing Jiheng Technology Co.ltd 2014 - Present
-    Director. cofounder
-Redflag Linux Co.ltd 2008 - 2014
-    Software Enginer
+2014 - Now , Beijing JHLinux Technology Co.,Ltd.
+
+   Co-Founder
+    
+2008 - 2014, Redflag Linux Co.ltd
+
+   Software Enginer
 
 
 
