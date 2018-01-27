@@ -28,11 +28,12 @@ Beijing, China
 # Education
 
 # Experiences
-2014 - Now , Beijing JHLinux Technology Co.,Ltd.
+### Beijing JHLinux Technology Co.,Ltd. Co-Founder, 2014 - now
 
    Co-Founder
-    
-2008 - 2014, Redflag Linux Co.ltd
+
+
+####  Redflag Linux Co.ltd, Embedded Software Engineer, 2008 - 2014
 
    Software Enginer
 
